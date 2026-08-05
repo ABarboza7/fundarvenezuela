@@ -76,7 +76,7 @@
 .dark #header.scroll > div:first-child,
 #header.scroll.dark > div:first-child {
   @apply bg-slate-900/70 md:bg-slate-900/70 backdrop-blur-xl border-b border-gray-800/50;
-
+}
 
 #header.expanded nav {
   position: fixed;
