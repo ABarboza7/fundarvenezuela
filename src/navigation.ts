@@ -27,7 +27,7 @@ export const headerData = {
       href: getPermalink('/#donar'),
     },
   ],
-  actions: [{ text: 'Donar', href: getPermalink('/#donar'), variant: 'primary' }],
+  actions: [{ text: 'Donar', href: getPermalink('/#donar'), variant: 'primary' as const }],
 };
 
 export const footerData = {
